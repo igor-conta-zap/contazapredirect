@@ -71,9 +71,9 @@ const Page = () => {
         </View>
         {/* <Image  style={styles.blueRectangleStyles} /> */}
       </ImageBackground>
-      <View>
+      <View >
         <View style={{ width: '100%', display: 'flex', alignItems: 'center', marginTop: 40 }}>
-          <View style={{ width: '80%', height: 50, backgroundColor: 'transparent', justifyContent: 'center' }}>
+          <View style={{ width: '80%', height: 100, backgroundColor: 'transparent', justifyContent: 'center' }}>
             <Text style={{ fontFamily: 'Ubuntu-Bold', fontSize: 25, color: '#181F75' }}>O seu dia a dia mais prático</Text>
           </View>
         </View>
@@ -208,7 +208,7 @@ const Page = () => {
         </ImageBackground>
         <View style={{ width: '100%', display: 'flex', alignItems: 'center', marginTop: 40 }}>
           <View style={{ width: '80%', height: 50, backgroundColor: 'transparent', justifyContent: 'center' }}>
-            <Text style={{ fontFamily: 'Ubuntu-Bold', fontSize: 25, color: '#181F75' }}>O seu dia a dia mais prático</Text>
+            <Text style={{ fontFamily: 'Ubuntu-Bold', fontSize: 25, color: '#181F75' }}>Conheça a Oi Conta Zap!</Text>
           </View>
         </View>
         <View style={{ width: '100%', backgroundColor: 'transparent', alignItems: 'center' }}>

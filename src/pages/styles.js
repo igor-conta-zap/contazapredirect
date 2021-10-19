@@ -31,14 +31,14 @@ const styles = StyleSheet.create({
   },
   blueRectangleStyles: {
     width: width,
-    height: height / 2.43,
+    height: height / 1.65,
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'center',
   },
   blueRectangleStyles2: {
     width: width,
-    height: height / 1.43,
+    height: height / 1.23,
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'center',
