@@ -36,9 +36,22 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
   },
+  blueRectangleStyles2: {
+    width: width,
+    height: height / 1.43,
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
   containerMessageStyles: {
     width: '80%',
     height: 100,
+    backgroundColor: 'transparent',
+    marginTop: 36
+  },
+  containerMessageStyles2: {
+    width: '80%',
+    height: 50,
     backgroundColor: 'transparent',
     marginTop: 36
   },
