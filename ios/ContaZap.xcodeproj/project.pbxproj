@@ -11,15 +11,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		19EC1E57FCA4ED51EBAD58DC /* libPods-ContaZap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2743AC0FDA4AF8A0CC54F528 /* libPods-ContaZap.a */; };
 		443CCDA8DE1A4FD3B6B44BDC /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71925A6334174E50B8814E89 /* Ubuntu-Bold.ttf */; };
-		958E1E762EF14664A4341A5F /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA396488A2443EE876267A9 /* Ubuntu-BoldItalic.ttf */; };
-		DA5E8001A5C34C52AE0939DF /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7511F1C20486445D85BDD08C /* Ubuntu-Italic.ttf */; };
-		B218EF5858864879B5DE09AB /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E184CF65907E4ECF978891A5 /* Ubuntu-Light.ttf */; };
-		AC86455EFEE647DDA47D540D /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF45DBD7E740437287CDE7FB /* Ubuntu-LightItalic.ttf */; };
-		C0834889EB694FBCB96CFB55 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70AC610AD0324796872E96B9 /* Ubuntu-Medium.ttf */; };
-		9D2BA40BE4F6421387905483 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F638C21EE7E2446C92769B7D /* Ubuntu-MediumItalic.ttf */; };
 		47BE0E8FDC0A4129842A258F /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 080FD6C9AD7D42E8BAC86F86 /* Ubuntu-Regular.ttf */; };
+		4E3C2149B03B8B064B9FE00E /* libPods-ContaZap-ContaZapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B118287D14D0A126031602 /* libPods-ContaZap-ContaZapTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		958E1E762EF14664A4341A5F /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA396488A2443EE876267A9 /* Ubuntu-BoldItalic.ttf */; };
+		9D2BA40BE4F6421387905483 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F638C21EE7E2446C92769B7D /* Ubuntu-MediumItalic.ttf */; };
+		AC86455EFEE647DDA47D540D /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF45DBD7E740437287CDE7FB /* Ubuntu-LightItalic.ttf */; };
+		B218EF5858864879B5DE09AB /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E184CF65907E4ECF978891A5 /* Ubuntu-Light.ttf */; };
+		C0834889EB694FBCB96CFB55 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70AC610AD0324796872E96B9 /* Ubuntu-Medium.ttf */; };
+		DA5E8001A5C34C52AE0939DF /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7511F1C20486445D85BDD08C /* Ubuntu-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,22 +38,28 @@
 		00E356EE1AD99517003FC87E /* ContaZapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContaZapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ContaZapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContaZapTests.m; sourceTree = "<group>"; };
+		0762261FF91AFA89E0DD9BF0 /* Pods-ContaZap-ContaZapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContaZap-ContaZapTests.debug.xcconfig"; path = "Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		080FD6C9AD7D42E8BAC86F86 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Regular.ttf"; path = "../fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ContaZap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContaZap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ContaZap/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ContaZap/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ContaZap/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContaZap/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ContaZap/main.m; sourceTree = "<group>"; };
+		21B118287D14D0A126031602 /* libPods-ContaZap-ContaZapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContaZap-ContaZapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2743AC0FDA4AF8A0CC54F528 /* libPods-ContaZap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContaZap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AC610AD0324796872E96B9 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Medium.ttf"; path = "../fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		71925A6334174E50B8814E89 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Bold.ttf"; path = "../fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		7511F1C20486445D85BDD08C /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Italic.ttf"; path = "../fonts/Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		7C68B27B0998B75D642E6CE2 /* Pods-ContaZap-ContaZapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContaZap-ContaZapTests.release.xcconfig"; path = "Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ContaZap/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB4127FB26742E52BEF6FCBA /* Pods-ContaZap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContaZap.release.xcconfig"; path = "Target Support Files/Pods-ContaZap/Pods-ContaZap.release.xcconfig"; sourceTree = "<group>"; };
+		BF45DBD7E740437287CDE7FB /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LightItalic.ttf"; path = "../fonts/Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		CBA396488A2443EE876267A9 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BoldItalic.ttf"; path = "../fonts/Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D27F736EE88B2CAE5E82A832 /* Pods-ContaZap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContaZap.debug.xcconfig"; path = "Target Support Files/Pods-ContaZap/Pods-ContaZap.debug.xcconfig"; sourceTree = "<group>"; };
+		E184CF65907E4ECF978891A5 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Light.ttf"; path = "../fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		71925A6334174E50B8814E89 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Bold.ttf"; path = "../fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBA396488A2443EE876267A9 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-BoldItalic.ttf"; path = "../fonts/Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7511F1C20486445D85BDD08C /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Italic.ttf"; path = "../fonts/Ubuntu-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E184CF65907E4ECF978891A5 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BF45DBD7E740437287CDE7FB /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-LightItalic.ttf"; path = "../fonts/Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		70AC610AD0324796872E96B9 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Medium.ttf"; path = "../fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F638C21EE7E2446C92769B7D /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-MediumItalic.ttf"; path = "../fonts/Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		080FD6C9AD7D42E8BAC86F86 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Regular.ttf"; path = "../fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F638C21EE7E2446C92769B7D /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MediumItalic.ttf"; path = "../fonts/Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3C2149B03B8B064B9FE00E /* libPods-ContaZap-ContaZapTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EC1E57FCA4ED51EBAD58DC /* libPods-ContaZap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +99,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		05835A21F602E28E6CF600CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D27F736EE88B2CAE5E82A832 /* Pods-ContaZap.debug.xcconfig */,
+				BB4127FB26742E52BEF6FCBA /* Pods-ContaZap.release.xcconfig */,
+				0762261FF91AFA89E0DD9BF0 /* Pods-ContaZap-ContaZapTests.debug.xcconfig */,
+				7C68B27B0998B75D642E6CE2 /* Pods-ContaZap-ContaZapTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* ContaZap */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +128,26 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				2743AC0FDA4AF8A0CC54F528 /* libPods-ContaZap.a */,
+				21B118287D14D0A126031602 /* libPods-ContaZap-ContaZapTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3385F85439E34D4BB5B47758 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71925A6334174E50B8814E89 /* Ubuntu-Bold.ttf */,
+				CBA396488A2443EE876267A9 /* Ubuntu-BoldItalic.ttf */,
+				7511F1C20486445D85BDD08C /* Ubuntu-Italic.ttf */,
+				E184CF65907E4ECF978891A5 /* Ubuntu-Light.ttf */,
+				BF45DBD7E740437287CDE7FB /* Ubuntu-LightItalic.ttf */,
+				70AC610AD0324796872E96B9 /* Ubuntu-Medium.ttf */,
+				F638C21EE7E2446C92769B7D /* Ubuntu-MediumItalic.ttf */,
+				080FD6C9AD7D42E8BAC86F86 /* Ubuntu-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -126,6 +166,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				3385F85439E34D4BB5B47758 /* Resources */,
+				05835A21F602E28E6CF600CD /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -141,22 +182,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3385F85439E34D4BB5B47758 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				71925A6334174E50B8814E89 /* Ubuntu-Bold.ttf */,
-				CBA396488A2443EE876267A9 /* Ubuntu-BoldItalic.ttf */,
-				7511F1C20486445D85BDD08C /* Ubuntu-Italic.ttf */,
-				E184CF65907E4ECF978891A5 /* Ubuntu-Light.ttf */,
-				BF45DBD7E740437287CDE7FB /* Ubuntu-LightItalic.ttf */,
-				70AC610AD0324796872E96B9 /* Ubuntu-Medium.ttf */,
-				F638C21EE7E2446C92769B7D /* Ubuntu-MediumItalic.ttf */,
-				080FD6C9AD7D42E8BAC86F86 /* Ubuntu-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ContaZapTests" */;
 			buildPhases = (
+				F765D5A1544EFFF97A0D7387 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				6BD26024DA78B8EE840F3B5A /* [CP] Embed Pods Frameworks */,
+				F1613B2AD1897C8C18E5B385 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,11 +210,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContaZap" */;
 			buildPhases = (
+				2D9A4BAD0E4F3717CB604861 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E18CDF1684FCA0B72468DB5A /* [CP] Embed Pods Frameworks */,
+				CAEC06DD91387E10A9544CFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +306,118 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		2D9A4BAD0E4F3717CB604861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContaZap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD26024DA78B8EE840F3B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEC06DD91387E10A9544CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap/Pods-ContaZap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap/Pods-ContaZap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContaZap/Pods-ContaZap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18CDF1684FCA0B72468DB5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap/Pods-ContaZap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap/Pods-ContaZap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContaZap/Pods-ContaZap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1613B2AD1897C8C18E5B385 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContaZap-ContaZapTests/Pods-ContaZap-ContaZapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F765D5A1544EFFF97A0D7387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContaZap-ContaZapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +470,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0762261FF91AFA89E0DD9BF0 /* Pods-ContaZap-ContaZapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -353,6 +497,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C68B27B0998B75D642E6CE2 /* Pods-ContaZap-ContaZapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -376,6 +521,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27F736EE88B2CAE5E82A832 /* Pods-ContaZap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -401,6 +547,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4127FB26742E52BEF6FCBA /* Pods-ContaZap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -455,6 +602,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -519,6 +667,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
