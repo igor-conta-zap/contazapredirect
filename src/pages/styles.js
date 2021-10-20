@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   },
   blueRectangleStyles2: {
     width: width,
-    height: height / 1.23,
+    height: height / 1.03,
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'center',
