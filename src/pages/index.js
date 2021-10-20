@@ -128,7 +128,7 @@ const Page = () => {
             <View style={{ width: 80, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Image source={anonimo} />
             </View>
-            <View style={{ width: 250, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+            <View style={{ width: 200, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
               <View>
                 <Text style={{ fontFamily: 'Ubuntu-Bold', color: '#FEC400' }}>
                   Pix
@@ -146,7 +146,7 @@ const Page = () => {
             <View style={{ width: 80, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Image source={anonimo1} />
             </View>
-            <View style={{ width: 250, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+            <View style={{ width: 200, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
               <View>
                 <Text style={{ fontFamily: 'Ubuntu-Bold', color: '#FEC400' }}>
                   Recargas
@@ -164,7 +164,7 @@ const Page = () => {
             <View style={{ width: 80, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Image source={anonimo2} />
             </View>
-            <View style={{ width: 250, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+            <View style={{ width: 200, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
               <View>
                 <Text style={{ fontFamily: 'Ubuntu-Bold', color: '#FEC400' }}>
                   Doação Premiada
@@ -182,7 +182,7 @@ const Page = () => {
             <View style={{ width: 80, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Image source={anonimo3} />
             </View>
-            <View style={{ width: 250, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+            <View style={{ width: 200, height: 70, backgroundColor: 'transparent', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
               <View>
                 <Text style={{ fontFamily: 'Ubuntu-Bold', color: '#FEC400' }}>
                   Dr. Zap
